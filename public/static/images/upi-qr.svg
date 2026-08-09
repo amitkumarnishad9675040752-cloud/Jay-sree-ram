@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="420" viewBox="0 0 340 420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181124"/>
+      <stop offset="100%" stop-color="#0c0814"/>
+    </linearGradient>
+    <linearGradient id="phonepeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6739b7"/>
+      <stop offset="100%" stop-color="#4a189a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card Background -->
+  <rect width="340" height="420" fill="url(#bgGrad)" rx="20" stroke="#3b1f63" stroke-width="2"/>
+
+  <!-- Top PhonePe Header -->
+  <g transform="translate(20, 20)">
+    <!-- Purple PhonePe Icon Circle -->
+    <circle cx="28" cy="28" r="22" fill="url(#phonepeGrad)"/>
+    <text x="28" y="34" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="20" text-anchor="middle">पे</text>
+    
+    <!-- PhonePe Text -->
+    <text x="60" y="28" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="20">PhonePe</text>
+    <text x="60" y="44" fill="#a78bfa" font-family="sans-serif" font-weight="800" font-size="14" letter-spacing="1">ACCEPTED HERE</text>
+  </g>
+
+  <!-- Subtitle Tagline -->
+  <text x="170" y="90" fill="#d8b4fe" font-family="sans-serif" font-weight="700" font-size="12" text-anchor="middle">Scan &amp; Pay Using PhonePe App</text>
+
+  <!-- White QR Card Frame -->
+  <rect x="35" y="105" width="270" height="250" fill="#ffffff" rx="16" stroke="#5b21b6" stroke-width="3"/>
+
+  <!-- QR Matrix Code inside White Box -->
+  <g transform="translate(50, 120)">
+    <!-- QR Outer Border/Quiet zone -->
+    
+    <!-- Top-Left Finder Pattern -->
+    <rect x="0" y="0" width="56" height="56" fill="#000000" rx="6"/>
+    <rect x="8" y="8" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="16" y="16" width="24" height="24" fill="#5f259f" rx="2"/>
+
+    <!-- Top-Right Finder Pattern -->
+    <rect x="184" y="0" width="56" height="56" fill="#000000" rx="6"/>
+    <rect x="192" y="8" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="200" y="16" width="24" height="24" fill="#5f259f" rx="2"/>
+
+    <!-- Bottom-Left Finder Pattern -->
+    <rect x="0" y="164" width="56" height="56" fill="#000000" rx="6"/>
+    <rect x="8" y="172" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="16" y="180" width="24" height="24" fill="#5f259f" rx="2"/>
+
+    <!-- QR Data Modules (Random Pattern matching actual QR density) -->
+    <!-- Row 1 -->
+    <rect x="68" y="0" width="16" height="16" fill="#000"/>
+    <rect x="92" y="0" width="24" height="16" fill="#000"/>
+    <rect x="124" y="0" width="16" height="16" fill="#000"/>
+    <rect x="148" y="0" width="24" height="16" fill="#000"/>
+
+    <!-- Row 2 -->
+    <rect x="68" y="24" width="24" height="16" fill="#000"/>
+    <rect x="100" y="24" width="16" height="24" fill="#000"/>
+    <rect x="124" y="24" width="24" height="16" fill="#000"/>
+    <rect x="156" y="24" width="16" height="16" fill="#000"/>
+
+    <!-- Row 3 -->
+    <rect x="68" y="48" width="16" height="16" fill="#000"/>
+    <rect x="92" y="56" width="32" height="16" fill="#000"/>
+    <rect x="132" y="48" width="16" height="24" fill="#000"/>
+    <rect x="156" y="48" width="16" height="16" fill="#000"/>
+
+    <!-- Middle Left/Right -->
+    <rect x="0" y="68" width="24" height="16" fill="#000"/>
+    <rect x="32" y="68" width="16" height="24" fill="#000"/>
+    <rect x="0" y="92" width="16" height="24" fill="#000"/>
+    <rect x="24" y="100" width="24" height="16" fill="#000"/>
+    <rect x="0" y="124" width="24" height="16" fill="#000"/>
+    <rect x="32" y="124" width="16" height="24" fill="#000"/>
+
+    <rect x="192" y="68" width="24" height="16" fill="#000"/>
+    <rect x="224" y="68" width="16" height="24" fill="#000"/>
+    <rect x="184" y="92" width="16" height="24" fill="#000"/>
+    <rect x="208" y="100" width="32" height="16" fill="#000"/>
+    <rect x="192" y="124" width="24" height="16" fill="#000"/>
+    <rect x="224" y="124" width="16" height="24" fill="#000"/>
+
+    <!-- Center QR Data Blocks -->
+    <rect x="60" y="80" width="20" height="20" fill="#000"/>
+    <rect x="160" y="80" width="20" height="20" fill="#000"/>
+    <rect x="60" y="120" width="20" height="20" fill="#000"/>
+    <rect x="160" y="120" width="20" height="20" fill="#000"/>
+
+    <!-- Bottom Middle -->
+    <rect x="68" y="152" width="16" height="24" fill="#000"/>
+    <rect x="92" y="160" width="24" height="16" fill="#000"/>
+    <rect x="124" y="152" width="16" height="24" fill="#000"/>
+    <rect x="148" y="160" width="24" height="16" fill="#000"/>
+
+    <rect x="68" y="184" width="24" height="16" fill="#000"/>
+    <rect x="100" y="184" width="16" height="24" fill="#000"/>
+    <rect x="124" y="184" width="24" height="16" fill="#000"/>
+    <rect x="156" y="184" width="16" height="24" fill="#000"/>
+
+    <!-- Center PhonePe Logo Emblem in QR -->
+    <circle cx="120" cy="110" r="22" fill="#ffffff"/>
+    <circle cx="120" cy="110" r="18" fill="url(#phonepeGrad)"/>
+    <text x="120" y="115" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="16" text-anchor="middle">पे</text>
+
+    <!-- Bottom Name Badge inside QR Card -->
+    <rect x="30" y="222" width="180" height="22" fill="#f3e8ff" rx="11"/>
+    <text x="120" y="236" fill="#5f259f" font-family="sans-serif" font-weight="800" font-size="11" text-anchor="middle">Amit Kumar • ₹99 / Credit</text>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="170" y="375" fill="#a78bfa" font-family="sans-serif" font-weight="700" font-size="11" text-anchor="middle">UPI ID: 9569086611-2@ybl</text>
+  <text x="170" y="398" fill="#6b7280" font-family="sans-serif" font-size="8" text-anchor="middle">© 2026, All rights reserved, PhonePe Ltd (Formerly known as 'PhonePe Private Ltd')</text>
+</svg>

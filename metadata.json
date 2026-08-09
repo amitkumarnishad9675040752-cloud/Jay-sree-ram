@@ -1,0 +1,6 @@
+{
+  "name": "AMIT FF INFO STORE",
+  "description": "AMIT FF INFO STORE - Free Fire Tools, Account Services, and Info Portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
